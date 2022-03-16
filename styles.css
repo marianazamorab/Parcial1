@@ -1,0 +1,114 @@
+#titulo{
+    padding-left:20px;
+    font-family: 'Rochester', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    height: 62px;
+}
+
+#bant{
+    padding-top: 29px;
+}
+
+#cantidad{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+}
+
+#border{
+    border: 1px solid #000000;
+}
+
+#banner{
+    padding-top: 24px;
+    padding-bottom: 11px;
+    height: 344px;
+    width: 1460px;
+}
+
+#navb{
+    padding-top: 11px;
+}
+
+.Roboto{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.card-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.card-img-top{
+    height: 130px;
+    width: 175px;
+    object-fit: cover;
+    padding-top: 10px;
+}
+
+.btn{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#central{
+    margin-top: 30px;
+    margin-right: 143px;
+    margin-left: 168px;
+    border-bottom: 1px solid #000000;
+}
+
+.card{
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 12px;
+}
+
+.btn{
+    background-color: #F2A950;
+    border: #F2A950;
+    color: black;
+}
+
+.card-title{
+    align-items: center;
+}
+
+#btn0{
+    padding-left: 53px;
+}
+
+#btn1{
+    padding-left: 53px;
+}
+
+#btn2{
+    padding-left: 53px;
+}
+
+#btn3{
+    padding-left: 53px;
+}
+
+#btn4{
+    padding-left: 53px;
+}
