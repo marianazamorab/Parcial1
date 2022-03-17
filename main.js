@@ -169,7 +169,7 @@ fetch(url)
       }
       else if (e.target.classList.contains("cancel")){
 
-        console.log("suma")
+        document.querySelector('#popupp').style.visibility = 'visible';
 
       } else if(e.target.classList.contains("confirm")){
         console.clear();
@@ -177,6 +177,10 @@ fetch(url)
 
       }
     });
+
+    function cerrarPop(){
+        document.querySelector("#popupp").style.visibility = 'hidden';
+    }
 
     const carr = document.querySelector("#carrito");
 
@@ -249,5 +253,7 @@ fetch(url)
 
       document.querySelector("#productos").innerHTML = html2;
     };
+
+    cerrarPop();
     
   });
