@@ -134,6 +134,21 @@ fetch(url)
 
     const cant = document.querySelector("#cantidad");
 
+    function subircant(){
+        cantidad++;
+        cant.innerHTML = cantidad + " items";
+    }
+
+    function bajarcant0(){
+        cantidad=0;
+        cant.innerHTML = cantidad;
+    }
+
+    function bajarcant(){
+        cantidad--;
+        cant.innerHTML = cantidad + " items";
+    }
+
     const prod = document.querySelector("#productos");
 
     prod.addEventListener("click", (e) => {
@@ -144,7 +159,7 @@ fetch(url)
       
       if (carrito.filter((p) => p === prod[0]).length === 0) {
         carrito.push(prod[0]);
-        cantidad++;
+        subircant()
       } else {
         carrito.push(prod[0]);
       }
@@ -162,6 +177,7 @@ fetch(url)
         let objetos= carrito.filter((p) => p['name'] === name);
         carrito = carrito.filter((p) => p['name'] !== name);
         objetos.pop();
+        if(objetos.length==0){ bajarcant()}
         objetos.forEach( f => {
             carrito.push(f);
         });
@@ -262,6 +278,7 @@ fetch(url)
         else if(e.target.id === "con"){
             carrito.splice(0, carrito.length);
             cerrarPop();
+            bajarcant0()
             table();
         }
     })
