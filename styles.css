@@ -45,17 +45,35 @@
     padding-top: 30px;
 }
 
-.card-title{
+#price{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+}
+
+#descripcion1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.card-text{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 12px;
     line-height: 21px;
     text-align: center;
 }
 
 .card-img-top{
-    height: 130px;
+    height: 140px;
     width: 175px;
     object-fit: cover;
     padding-top: 10px;
@@ -87,6 +105,66 @@
     background-color: #F2A950;
     border: #F2A950;
     color: black;
+    position: relative;
+    box-sizing: border-box;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#restar{
+    background-color: #FDCD55;
+    border: #FDCD55;
+    color: white;
+    width: 31px;
+    height: 32px;
+    margin-right: 9px;
+}
+
+#sumar{
+    background-color: #FDCD55;
+    border: #FDCD55;
+    color: white;
+    width: 31px;
+    height: 32px;
+}
+
+#cancel{
+    background-color: #8C162C;
+    border: black;
+    color: white;
+    width: 143px;
+    height: 48px;
+}
+
+#confirm{
+    background-color: #708C32;
+    border: black;
+    color: white;
+    width: 143px;
+    height: 48px;
+    margin-left:10px;
+}
+
+#footer{
+    padding-top: 30px;
+    padding-bottom:13px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+}
+
+#tabla1{
+    padding-left: 300px;
+    padding-right:300px;
+    padding-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
 }
 
 .card-title{
