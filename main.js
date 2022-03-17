@@ -254,6 +254,18 @@ fetch(url)
       document.querySelector("#productos").innerHTML = html2;
     };
 
+    const pop =document.querySelector("#popupp");
+    pop.addEventListener("click", (e) => {
+        if(e.target.id === "can"){
+            cerrarPop();
+        }
+        else if(e.target.id === "con"){
+            carrito.splice(0, carrito.length);
+            cerrarPop();
+            table();
+        }
+    })
+
     cerrarPop();
     
   });
